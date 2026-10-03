@@ -18,32 +18,38 @@
 <body>
 <main>
   <h1>Clipper Privacy Policy</h1>
-  <div class="date">Effective 28 September 2026</div>
+  <div class="date">Effective 3 October 2026</div>
 
-  <p>Clipper ("the app") is a private, single-user software tool operated by its owner to publish short video clips to the owner's own YouTube channel. It is not offered to the public and has no users other than its owner. This policy describes what data the app accesses through Google APIs and how that data is handled.</p>
+  <p>Clipper ("the app") is a private, single-user software tool operated by its owner to publish short video clips to the owner's own YouTube channels. It is not offered to the public and has no users other than its owner. This policy describes what data the app accesses through Google APIs and how that data is handled.</p>
 
   <h2>Data the app accesses</h2>
   <p>With the owner's consent through Google sign-in, the app uses the YouTube Data API to:</p>
   <ul>
-    <li>upload videos to the owner's YouTube channel and set their title, description, tags and privacy status;</li>
-    <li>read the channel's own video list and view, like and comment counts for videos the app uploaded.</li>
+    <li>upload videos to the owner's YouTube channels and set their title, description, tags and privacy status;</li>
+    <li>schedule an uploaded video to go public at a chosen time, and change its title or description afterwards;</li>
+    <li>set a video's thumbnail to the cover image the app made for it;</li>
+    <li>delete a video the app uploaded, when the owner takes a clip down;</li>
+    <li>read the status, processing state and view, like and comment counts of the videos the app uploaded, and the name of the channel that signed in.</li>
   </ul>
+  <p>With the same consent the app uses the YouTube Analytics API to read, for the owner's own channels only, watch time, average view duration, shares and subscribers gained for the videos it uploaded.</p>
   <p>The app does not read the owner's email, contacts, watch history, or any other Google data, and it never accesses any account other than the owner's.</p>
 
   <h2>How the data is used</h2>
-  <p>Uploaded videos are clips the owner has created and approved. View counts are stored to measure which clips perform well. Nothing is used for advertising, profiling, or resale.</p>
+  <p>Uploaded videos are clips the owner has created and approved. Video ids, statuses, counts and analytics are stored to track what the app has posted and to measure which clips perform well. Nothing is used for advertising, profiling, or resale, and nothing read from YouTube is altered or shown out of context.</p>
 
   <h2>Where the data is stored</h2>
-  <p>The Google OAuth token and all statistics are stored locally on the owner's own computer in a private database. No data is sent to any server operated by the app's owner or by any third party other than Google's own APIs.</p>
+  <p>The Google OAuth token for each channel and all ids, statuses, counts and analytics are stored locally on the owner's own computer in a private database. Nothing received from Google APIs is sent to any server operated by the app's owner or by any third party.</p>
+
+  <p>When the owner turns on cross-posting, the app sends the clip video files it made, with their captions, to Buffer, which posts them to the owner's own TikTok, Instagram and Facebook accounts. Those files are the owner's own content; no data received from Google APIs goes to Buffer or any other service.</p>
 
   <h2>Sharing</h2>
-  <p>The app does not share, sell, or transfer Google user data to anyone.</p>
+  <p>The app does not share, sell, or transfer Google user data to anyone. It uses a single Google Cloud project and does not spread its API use across projects to obtain more quota.</p>
 
   <h2>Limited Use disclosure</h2>
   <p>Clipper's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 
   <h2>Retention and deletion</h2>
-  <p>Data is kept only as long as the owner keeps the app installed. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, which invalidates the stored token immediately. Deleting the app's local data folder removes everything else.</p>
+  <p>Data is kept only as long as the owner keeps the app installed. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, which invalidates the stored token immediately. Deleting the app's local data folder removes everything else. The app keeps no data about any YouTube user other than its owner.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the updated version will be posted at this address with a new effective date.</p>
